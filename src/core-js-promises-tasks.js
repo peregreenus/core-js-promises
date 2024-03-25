@@ -40,7 +40,7 @@ function getPromise(number) {
  */
 function getPromiseResult(source) {
   return source
-    .then(() => Promise.resolve('sauccess'))
+    .then(() => Promise.resolve('success'))
     .catch(() => Promise.resolve('fail'));
 }
 
